@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dalla giusta</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
+        <meta name="viewport" content="width=device-width" />
+
+        <script type="text/javascript">
+            
+            function mostraMessaggio() {
+            window.alert("Questo indirizzo IP ha già un account!");
+            }
+            
+            
+            function mostraMessaggio2() {
+            window.alert("Servizio ancora in fase beta,non è possibile creare un account. Per ulteriori informazioni chiama +393494751038");
+            }
+            
+            </script>
+    </head>
+    <body>
+        <div class="sfondo">
+        <div class="mobile">
+           
+        <nav class="navigazione">       <img class="bakery" src="immagini/BakerY.png"> 
+            <a href="account.html">CARRELLO</a>
+            <a href="chisiamo.html">CHI SIAMO</a>
+            <a href="I nostri Prodotti.html">I NOSTRI PRODOTTI</a>
+            <a href="index.html">HOME</a>    
+        </nav>
+        </div>
+        
+        <div class="generale">
+        <h4>Accedi</h4>
+        <input type="email"  placeholder="Email">
+        <input type="text"   placeholder="Password">
+        <button onclick="mostraMessaggio2()">Accedi</button>
+        <p>Non sei ancora registrato? <a href="" onclick="mostraMessaggio()">Registrati</a></p>
+    </div>
+        </div>
+
+
+    </body>
+    </html>

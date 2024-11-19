@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "mandala";
+    src: url("font/Mandala In Autumn.otf");
+}
+
+@font-face {
+    font-family: "Akira";
+    src: url("font/CaviarDreams.ttf");
+    font-weight: bold;
+}
+body{
+    background-color: rgb(245, 237, 220);
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.7;
+    padding-top:2.9rem;
+}
+.navigazione2{
+    position: fixed;
+    top: 3.6rem;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1.5);
+    overflow: hidden;
+    box-shadow: 0 0 0.7rem black;
+    z-index: 1;
+}
+.navigazione2 a{
+    float:right;
+    text-align: center;
+    padding: 1rem 1.36rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Akira";
+    background-color: rgba(54, 37, 37, 0.165);
+    border-left: 0.1rem solid grey;
+    border-bottom: 0.1rem solid grey;
+    transition: all 0.1s;
+    text-transform: uppercase;
+}
+#home{
+    margin-bottom: 4rem;
+}
+#home a{
+    display: block;
+    font-family:"akira";
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem ;
+    color: black;
+}
+div.diritti{
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(49, 49, 49);
+}
+.navigazione a{
+    float:right;
+    text-align: center;
+    padding: 1rem 1.01rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Akira";
+    background-color: rgba(0, 0, 0, 0.165);
+    border-left: 0.1rem solid grey;
+    border-bottom: 0.1rem solid grey;
+    transition: all 0.1s;
+}
+.navigazione a:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    color: black;
+}
+img.bakery{
+    width: 5rem;
+    position: fixed;
+    top:0;
+    z-index: 999999999999999999999;
+    margin-left: 10%;
+}
+.navigazione{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    box-shadow: 0 0 0.7rem black;
+    z-index: 9999;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+   
+}
+
+.offerta{
+    max-width: 50rem;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0rem 0rem 2rem red;
+    border: 0.2rem solid black;
+    border-radius: 0.7rem;
+
+}
+h1{
+    text-align: center;
+    font-family: 'mandala';
+    font-size: 4rem;
+}
+.didascalia img{
+    max-width: 20rem;
+    width: 100%;
+    height:auto;
+    display: block;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.didascalia{
+    max-width: 20rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 200, 0, 0.155);
+}
+iframe{
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 0.5rem black;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'mandala';
+    text-align: center;
+    margin: 2rem;
+}
+h3{
+    text-align: center;
+}
+span{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.colonna{
+    max-width: 90rem;
+    margin: 0 auto;
+    width: 100%;
+}
+hr{
+    height: 0.2rem;
+    background-color: black;
+    box-shadow: 0rem 0.2rem 1rem rgba(0, 0, 0, 0.677);
+}
+.sezione{
+    max-width: 60rem;
+    border: 0.1rem solid rgb(22, 18, 18) ;
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+    max-height: 30rem;
+    height: 100%;
+    padding: 0.5rem;
+    background: rgba(255, 233, 184, 1);
+}
+.sezione img{
+    width: 35rem ;
+    max-height: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+.centro{
+    text-align: center;
+}
+.informazioni{
+    background-color: rgba(221, 191, 147, 0.547);
+    line-height: 0.9;
+}
+
+img.social{
+    max-width: 5rem;
+    width: 100%;
+    
+}
+
+.social{
+    text-align: center;
+}
+.info{
+    text-align: center; 
+}
+
+p{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.centrata{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+.generale{
+    max-width: 20rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    box-shadow: 0.0 0.0 01rem gray;
+    margin-top: 10rem;
+    font-family: sans-serif;
+    background-color: rgb(255, 249, 237);
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: beige;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(73, 66, 32, 0.432);
+    padding: 0.4rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    box-shadow: 0 0 0.9rem rgba(0, 0, 0, 0.137);
+}
+button:active{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(40, 33, 79, 0.432);
+    padding: 0.4rem;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    background-color: beige;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(40, 33, 79, 0.432);
+    padding: 0.4rem;
+    margin-bottom: 1.1rem;
+}
+.vetrina{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.2rem 1rem rgba(0, 0, 0, 0.677);
+}
+.elencoprodotti{
+    max-width: 20rem;
+    width: 100%;
+    border: 0.1rem solid black;
+    margin: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem black;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 233, 184);
+    display: inline-block;
+}
+.elencoprodotti img{
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
+    
+}
+a.acquista{
+    background-color: rgba(128, 128, 128, 0.308);
+    border: 0.01rem solid black;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+}
+.acquista:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.centrata2{
+    text-align: center;
+}
+
+.offertahome{
+    
+    background: linear-gradient( rgb(245, 237, 220), rgba(247, 157, 155, 0.568),  rgb(245, 237, 220));
+}
+.navigazione2 a:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    color: black;
+}
+
+.prodottiparagrafo{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+.bold2{
+   font-size: 1.5rem;
+}
+@media screen and (max-width:50rem){
+    .elencoprodotti{
+        margin:0 auto;
+        margin-bottom:1rem;
+    }
+   .elementonav{
+    max-width:60rem;
+    height:3rem;
+   }
+   img.bakery{
+   margin-left:0;
+   margin-top:0;
+   }
+}
